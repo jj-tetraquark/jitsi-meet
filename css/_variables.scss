@@ -24,10 +24,18 @@ $filmstripToggleButtonWidth: 17px;
 /**
  * Color variables.
  */
+
+$offWhite: #D7CFCD;
+$darkViolet: #3D2845;
+$violet: #5B3D78;
+$lightPurple: #8B3B84;
+$purple: #5B2074;
+
+
 $defaultColor: #F1F1F1;
-$defaultSideBarFontColor: #44A5FF;
-$defaultSemiDarkColor: #ACACAC;
-$defaultDarkColor: #2b3d5c;
+$defaultSideBarFontColor: $purple;
+$defaultSemiDarkColor: $violet;
+$defaultDarkColor: $darkViolet;
 $defaultWarningColor: rgb(215, 121, 118);
 $presence-available: rgb(110, 176, 5);
 $presence-away: rgb(250, 201, 20);
@@ -167,10 +175,10 @@ $watermarkHeight: 74px;
 /**
  * Welcome page variables.
  */
-$welcomePageDescriptionColor: #fff;
+$welcomePageDescriptionColor: $offWhite;
 $welcomePageFontFamily: inherit;
-$welcomePageBackground: linear-gradient(-90deg, #1251AE 0%, #0074FF 50%, #1251AE 100%);
-$welcomePageTitleColor: #fff;
+$welcomePageBackground: linear-gradient(-90deg, $darkViolet 0%, $purple 50%, $darkViolet 100%);
+$welcomePageTitleColor: $offWhite;
 
 $welcomePageHeaderBackground: none;
 $welcomePageHeaderBackgroundSmall: none;
@@ -206,7 +214,7 @@ $welcomePageEnterRoomInputContainerBorderImage: linear-gradient(to right, #dee1e
 
 $welcomePageEnterRoomTitleDisplay: inherit;
 
-$welcomePageTabContainerDisplay: flex;
+$welcomePageTabContainerDisplay: none;
 $welcomePageTabContentDisplay: inherit;
 $welcomePageTabButtonsDisplay: flex;
 $welcomePageTabDisplay: block;
